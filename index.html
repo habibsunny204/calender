@@ -11,6 +11,7 @@
             flex-direction: column;
             justify-content: center;
             align-items: center;
+            margin: auto;
         }
 
         .dates {
@@ -29,7 +30,55 @@
             text-align: center;
             background-color: blueviolet;
             font-size: 30px;
+            font-weight: 600;
             border-radius: 15px 0px;
+        }
+
+        .date:hover {
+            background-color: rgb(26, 135, 22);
+        }
+
+        .friday {
+            color: red;
+        }
+
+        @media screen and (max-width: 575.989px) {
+            .calender {
+                height: 80vh;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .date {
+                width: 100%;
+                height: 40px;
+                border: 1px solid purple;
+                font-size: 20px;
+                font-weight: 500;
+                border-radius: 8px 0px;
+            }
+        }
+
+        @media screen and (min-width: 576px) and (max-width: 991.989px) {
+            .calender {
+                width: 100%;
+                height: 50vh;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .date {
+                width: 100%;
+                height: 40px;
+                border: 1px solid purple;
+                font-size: 25px;
+                font-weight: 600;
+                border-radius: 12px 0px;
+            }
         }
     </style>
 </head>
@@ -45,42 +94,42 @@
             <div class="date">Tus</div>
             <div class="date">Wed</div>
             <div class="date">Thu</div>
-            <div class="date">Fri</div>
+            <div class="date friday">Fri</div>
             <div class="date">Sat</div>
             <div class="date">1</div>
             <div class="date">2</div>
             <div class="date">3</div>
             <div class="date">4</div>
             <div class="date">5</div>
-            <div class="date">6</div>
+            <div class="date friday">6</div>
             <div class="date">7</div>
             <div class="date">8</div>
             <div class="date">9</div>
             <div class="date">10</div>
             <div class="date">11</div>
             <div class="date">12</div>
-            <div class="date">13</div>
+            <div class="date friday">13</div>
             <div class="date">14</div>
             <div class="date">15</div>
             <div class="date">16</div>
             <div class="date">17</div>
             <div class="date">18</div>
             <div class="date">19</div>
-            <div class="date">20</div>
+            <div class="date friday">20</div>
             <div class="date">21</div>
             <div class="date">22</div>
             <div class="date">23</div>
             <div class="date">24</div>
             <div class="date">25</div>
             <div class="date">26</div>
-            <div class="date">27</div>
+            <div class="date friday">27</div>
             <div class="date">28</div>
             <div class="date">29</div>
             <div class="date">30</div>
             <div class="date">1</div>
             <div class="date">2</div>
             <div class="date">3</div>
-            <div class="date">4</div>
+            <div class="date friday">4</div>
             <div class="date">5</div>
         </div>
     </div>
